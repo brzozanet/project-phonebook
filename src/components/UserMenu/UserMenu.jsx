@@ -1,7 +1,7 @@
 import { Button } from "@mui/material";
 import { useAuth } from "hooks/useAuth";
 import { useDispatch } from "react-redux";
-import { logout } from "redux/auth/operations";
+import { logout } from "../../redux/auth/operations";
 
 export const UserMenu = () => {
   const dispatch = useDispatch();

@@ -1,6 +1,6 @@
 import { useDispatch, useSelector } from "react-redux";
-import { addContact } from "redux/contacts/operations";
-import { selectContacts } from "redux/contacts/selectors";
+import { addContact } from "../../redux/contacts/operations";
+import { selectContacts } from "../../redux/contacts/selectors";
 import { Button, TextField } from "@mui/material";
 
 const css = {
@@ -21,9 +21,9 @@ export const ContactsForm = () => {
   const dispatch = useDispatch();
 
   const stateContacts = useSelector(selectContacts);
-  const stateContactsNames = stateContacts.map(contact => contact.name);
+  const stateContactsNames = stateContacts.map((contact) => contact.name);
 
-  const handleSubmit = event => {
+  const handleSubmit = (event) => {
     event.preventDefault();
     const contact = {
       name: event.target.elements.name.value,

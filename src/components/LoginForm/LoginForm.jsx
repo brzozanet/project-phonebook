@@ -1,4 +1,4 @@
-import { login } from "redux/auth/operations";
+import { login } from "../../redux/auth/operations";
 import { useDispatch } from "react-redux";
 import { Button, TextField } from "@mui/material";
 
@@ -19,7 +19,7 @@ const css = {
 export const LoginForm = () => {
   const dispatch = useDispatch();
 
-  const handleSubmit = event => {
+  const handleSubmit = (event) => {
     event.preventDefault();
     const form = event.target;
     const loginElement = {

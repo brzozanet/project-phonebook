@@ -2,7 +2,7 @@ import { Button, TextField } from "@mui/material";
 import { useDispatch } from "react-redux";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { register } from "redux/auth/operations";
+import { register } from "../../redux/auth/operations";
 
 const css = {
   containerDiv: ["flex", "justify-center", "pt-32"].join(" "),
@@ -21,7 +21,7 @@ const css = {
 export const RegisterForm = () => {
   const dispatch = useDispatch();
 
-  const handleSubmit = event => {
+  const handleSubmit = (event) => {
     event.preventDefault();
     const form = event.target;
     const registerData = {
