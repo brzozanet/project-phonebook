@@ -4,7 +4,7 @@
 
 ### GoIT fullstack developer course
 
-### [Zobacz online na GitHub Pages >>](https://brzozanet.github.io/goit-react-hw-08-phonebook/)
+### [Zobacz online na GitHub Pages >>](https://brzozanet.github.io/project-phonebook/)
 
 Wykorzystane technologie i rozwiązania:
 
@@ -19,15 +19,18 @@ Wykorzystane technologie i rozwiązania:
 - Node.js
 - Parcel
 
-![Screenshot App](https://raw.githubusercontent.com/brzozanet/goit-react-hw-08-phonebook/main/src/images/gh-cover-goit-react-phonebook.jpg)
+![Screenshot App](https://raw.githubusercontent.com/brzozanet/project-phonebook/main/src/images/gh-cover-goit-react-phonebook.jpg)
 
 Logowanie testowego użytkownika:
 
 email:
+
 ```shell
 user@testing.com
 ```
+
 hasło:
+
 ```shell
 testing
 ```
